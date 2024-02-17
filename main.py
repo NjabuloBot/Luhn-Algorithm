@@ -21,5 +21,6 @@ def verify_card_number(card_number):
             number = number // 10 + number % 10
         sum_of_even_digits+=number
    total = sum_of_odd_digits + sum_of_even_digits
-   print(total)
    return 0 == total % 10 
+
+main()
