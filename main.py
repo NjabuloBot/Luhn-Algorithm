@@ -6,4 +6,4 @@ def main():
    print(translated_card_number)
 
 def verify_card_number(card_number):
-   pass
+   sum_of_odd_digits = 0
