@@ -17,4 +17,4 @@ def verify_card_number(card_number):
         number = int(digit) * 2
         if number >= 10:
             number = number // 10 + number % 10
-            print(number)
+        sum_of_even_digits+=number
