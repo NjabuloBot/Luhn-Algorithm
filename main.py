@@ -12,3 +12,4 @@ def verify_card_number(card_number):
    for digit in odd_digits:
       sum_of_odd_digits+=int(digit)
    print(sum_of_odd_digits)
+   sum_of_even_digits = 0
